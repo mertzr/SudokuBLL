@@ -35,3 +35,4 @@ public class LatinSquare {
 	}
 	
 }
+kenneth powley

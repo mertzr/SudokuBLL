@@ -28,5 +28,6 @@ public class LatinSquareTest {
 		iValue = 9;
 		assertFalse(ls.doesElementExist(myIntArray,  iValue));
 	}
+	
 
 }

@@ -35,4 +35,8 @@ public class LatinSquare {
 	}
 	
 }
+<<<<<<< HEAD
 kenneth powley
+=======
+ryan mertz 
+>>>>>>> branch 'master' of https://github.com/mertzr/SudokuBLL.git

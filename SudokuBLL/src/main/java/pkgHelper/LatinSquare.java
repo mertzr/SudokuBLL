@@ -4,8 +4,6 @@ public class LatinSquare {
 
 	private int[][] myLatinSquare;
 
-
-
 	public LatinSquare(int[][] twoDimArray)
 	{
 		this.myLatinSquare = twoDimArray;
@@ -32,6 +30,11 @@ public class LatinSquare {
 				return true;
 		}
 		return false;
+	}
+	
+	
+	public void setLatinSquare(int[][] latinSquare) {
+		myLatinSquare = latinSquare;
 	}
 	
 }

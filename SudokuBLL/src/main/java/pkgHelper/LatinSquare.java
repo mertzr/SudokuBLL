@@ -34,7 +34,7 @@ public class LatinSquare {
 	
 	
 	public void setLatinSquare(int[][] latinSquare) {
-		myLatinSquare = latinSquare;
+		myLatinSquare = latinSquare; 
 	}
 	
 }

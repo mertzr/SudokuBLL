@@ -28,6 +28,12 @@ public class LatinSquareTest {
 		iValue = 9;
 		assertFalse(ls.doesElementExist(myIntArray,  iValue));
 	}
-	
+	public void hasDuplicates_test1() {
+		
+		int [] arr= {1,2,3,4,5};
+		LatinSquare lq = new LatinSquare();
+		
+		assertFalse(lq.hasDuplicates(arr));
+	}
 
 }

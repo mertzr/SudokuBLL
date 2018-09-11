@@ -35,5 +35,10 @@ public class LatinSquareTest {
 		
 		assertFalse(lq.hasDuplicates(arr));
 	}
-
+	public void hasAllValues_test1() {
+		int [] arr1 = {1,2,3,4,5};
+		int [] arr2 = {1,2,3,4,5};
+		
+		assertTrue(hasAllValues(arr1,arr2));
+	}
 }

@@ -3,11 +3,11 @@ package pkgHelper;
 import java.util.Arrays;
 
 public class hasDuplicates {
-	public boolean hasDuplicates(int [] arr) {
+	public boolean hasDuplicates1(int [] arr) {
 		
 		boolean hasDuplicates = false; 
 		
-		if (arr==null);{
+		if (arr==null){
 			return false;
 		}
 		
@@ -18,7 +18,8 @@ public class hasDuplicates {
 				hasDuplicates = true;
 				break;
 			}
+		}
 		return hasDuplicates;
 	}
 }
-}
+

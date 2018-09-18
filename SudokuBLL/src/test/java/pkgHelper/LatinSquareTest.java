@@ -12,13 +12,13 @@ public class LatinSquareTest {
 		
 		LatinSquare ls = new LatinSquare(myArray);
 		
-		/* System.out.println(ls.ContainsZero());
+		System.out.println(ls.ContainsZero());
 		
 		assertFalse(ls.ContainsZero());
 		
 		myArray[0][1] = 0;
 		
-		assertTrue(ls.ContainsZero()); */
+		assertTrue(ls.ContainsZero());
 		
 		int[] myIntArray = {1,2,3,4,5};
 		int iValue = 4;

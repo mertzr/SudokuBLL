@@ -110,16 +110,6 @@ public class LatinSquareTest {
 	}
 
 	@Test
-	public boolean hasAllValues(int[] arr1, int[] arr2) {
-
-		if (arr1 == arr2) {
-			return true;
-		}
-
-		return false;
-	}
-
-	@Test
 	public int[] getColumnTest(int iCol) {
 
 		int[][] square = { { 1, 2, 3 }, { 2, 3, 1 }, { 3, 1, 2 } };

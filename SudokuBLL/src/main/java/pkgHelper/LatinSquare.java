@@ -8,6 +8,11 @@ public class LatinSquare {
 	{
 		this.myLatinSquare = twoDimArray;
 	}
+	
+	public int[][] getLatinSquare(){
+		return this.LatinSquare;
+	}
+	
 	public boolean ContainsZero()
 	{
 		

@@ -65,4 +65,23 @@ public class LatinSquare {
 		return result;
 		
 	}
+	
+	public boolean hasDuplicates1(int [] arr) {
+		
+		boolean hasDuplicates = false; 
+		
+		if (arr==null){
+			return false;
+		}
+		
+		Arrays.sort(arr);
+		
+		for (int i = 0; i<arr.length-1; i++) {
+			if (arr[i]==arr[i+1]) {
+				hasDuplicates = true;
+				break;
+			}
+		}
+		return hasDuplicates;
+	}
 }

@@ -8,20 +8,23 @@ public class LatinSquareTest {
 
 	@Test
 	public void hasDuplicates_test1() {
-		int[] arr = { 1, 2, 3, 4, 5 };
+		int[] arr1 = { 1, 2, 3, 4, 5 };
 		LatinSquare lq = new LatinSquare();
 
 		assertFalse(lq.hasDuplicates(arr));
 		
-		arr = { 1, 1, 3, 4, 5 };
+		int[] arr2 = { 1, 1, 3, 4, 5 };
+		LatinSquare lq = new LatinSquare();
 
 		assertTrue(lq.hasDuplicates(arr));
 		
-		arr = { 1, 1, 3, 4, 1 };
+		int[] arr3 = { 1, 1, 3, 4, 1 };
+		LatinSquare lq = new LatinSquare();
 
 		assertTrue(lq.hasDuplicates(arr));
 		
-		arr = null;
+		int[] arr4 = null;
+		LatinSquare lq = new LatinSquare();
 
 		assertFalse(lq.hasDuplicates(arr));
 

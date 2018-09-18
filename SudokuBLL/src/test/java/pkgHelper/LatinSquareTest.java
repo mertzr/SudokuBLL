@@ -149,3 +149,4 @@ public class LatinSquareTest {
 		assertTrue("getRow works", (result1 == r1));
 		assertTrue("getRow works", (result2 == r2));
 	}
+}

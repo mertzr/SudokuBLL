@@ -27,7 +27,6 @@ public class LatinSquareTest {
 		LatinSquare lq = new LatinSquare();
 
 		assertFalse(lq.hasDuplicates(arr));
-
 	}
 
 	@Test
@@ -61,7 +60,6 @@ public class LatinSquareTest {
 		myIntArray = null;
 
 		assertFalse(lq.doesElementExist(myIntArray, iValue));
-
 	}
 
 	@Test

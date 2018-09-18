@@ -10,5 +10,6 @@ public class doesElementExist {
 			if (arr[i] == iValue)
 				return true;
 		return false;
+		
 	}
 }

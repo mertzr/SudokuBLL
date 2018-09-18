@@ -32,6 +32,10 @@ public class LatinSquare {
 		return false;
 	}
 	
+	public int[] getRow(int iRow) {
+		return getLatinSquare()[iRow];
+	}
+	
 	public int[] getColumn(int iCol) {
 		
 		int[][] square = getLatinSquare();

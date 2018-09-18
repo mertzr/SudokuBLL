@@ -12,7 +12,6 @@ public class hasAllValues {
 		if (arr1==arr2) {
 			return true;
 		}
-		
 		return false;
 	}
 }
